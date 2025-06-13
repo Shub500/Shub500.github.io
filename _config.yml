@@ -13,10 +13,13 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-# Custom navigation - remove about page
+# Custom navigation - specify which pages to show in header
 header_pages:
   - publications.md
   - research.md
+
+# Disable showing posts on the home page
+show_excerpts: false
 
 # Include assets
 include:
