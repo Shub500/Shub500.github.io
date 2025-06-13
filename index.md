@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 ---
 
 # Shubham Mohole
@@ -10,29 +10,29 @@ I'm Shubham, an undergraduate student at Cornell University studying Computer Sc
 
 ---
 
-# Publications and Preprints
+## Publications and Preprints
 
-#### VeriMinder: Mitigating Analytical Vulnerabilities in NL2SQL
-**Shubham Mohole**, Sainyam Galhotra\
-ACL 2025\
-<!-- [Paper](https://arxiv.org/abs/placeholder) [Code](https://github.com/veriminder/veriminder) [Website](https://veriminder.ai) -->
+**VeriMinder: Mitigating Analytical Vulnerabilities in NL2SQL**  
+**Shubham Mohole**, Sainyam Galhotra  
+ACL 2025  
+[Paper](https://arxiv.org/abs/placeholder) | [Code](https://github.com/veriminder/veriminder) | [Website](https://veriminder.ai)
 
-#### SIFOTL: A Principled, Statistically-Informed Fidelity-Optimization Method for Tabular Learning
-**Shubham Mohole**, Sainyam Galhotra\
-KDD 2025\
-<!-- [Paper](https://arxiv.org/abs/placeholder) [Code](https://github.com/sifotl/sifotl) -->
+**SIFOTL: A Principled, Statistically-Informed Fidelity-Optimization Method for Tabular Learning**  
+**Shubham Mohole**, Sainyam Galhotra  
+KDD 2025  
+[Paper](https://arxiv.org/abs/placeholder) | [Code](https://github.com/sifotl/sifotl)
 
-<!-- #### SAVL-II: Surrogate-Aided Vertical Learning for Agent-to-Agent Systems with Inference-Time Independence
-**Shubham Mohole**, Sainyam Galhotra\
-Under Review\
+<!-- **SAVL-II: Surrogate-Aided Vertical Learning for Agent-to-Agent Systems with Inference-Time Independence**  
+**Shubham Mohole**, Sainyam Galhotra  
+Under Review  
 [Paper](https://arxiv.org/abs/placeholder) -->
 
 ---
 
-# Research Experience
+## Research Experience
 
 **Lawrence Livermore National Laboratory** - *Summer Computing Scholar* (2025)
-- Developed VeriMed-RAG, a retrieval-augmented generation framework for biomedical claim validation
+- Developing VeriMed-RAG, a retrieval-augmented generation framework for biomedical claim validation
 
 **Prism Lab, Cornell University** - *Research Assistant* (2024 – Present)  
 Advisor: Prof. Sainyam Galhotra
@@ -47,7 +47,7 @@ Advisor: Prof. Michael Macy
 
 ---
 
-# Selected Projects
+## Selected Projects
 
 **ClamPy (Sparse AutoEncoders for LLM Behavior Control)**  
 Implemented core functionality for manipulating text generation using activation hooking and dynamic steering. Awarded PrimeIntellect Sponsor Prize at Open Source AGI Hackathon.
@@ -57,7 +57,7 @@ Developed front-end graphics and backend logic for a music-synchronized rhythm g
 
 ---
 
-# Teaching
+## Teaching
 
 **CS 3110: Data Structures and Functional Programming** - *Teaching Assistant* (Spring 2025)  
 Cornell University

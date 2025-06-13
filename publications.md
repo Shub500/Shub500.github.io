@@ -31,10 +31,10 @@ permalink: /publications/
 
 > Develops a vertical federated learning framework enabling inference-time independence in agent-to-agent systems through surrogate feature generation. Achieves 81% AUPRC of oracle performance while maintaining complete operational autonomy.
 
-<!-- ## Technical Reports
+## Technical Reports
 
 **VeriMed-RAG: Retrieval-Augmented Generation for Biomedical Proposition Validation**  
 **Shubham Mohole**, et al.  
 *Lawrence Livermore National Laboratory Technical Report, 2025*
 
-> Implements hierarchical validation framework for biomedical claims using 11 "Veritable Checks" with transparent audit trails. Created validation dataset with 5,000+ biomedical propositions. --> -->
+> Implements hierarchical validation framework for biomedical claims using 11 "Veritable Checks" with transparent audit trails. Created validation dataset with 5,000+ biomedical propositions. -->

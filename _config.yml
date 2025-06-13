@@ -13,6 +13,11 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
+# Custom navigation - remove about page
+header_pages:
+  - publications.md
+  - research.md
+
 # Include assets
 include:
   - assets
@@ -33,3 +38,4 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - README.md
+  - about.markdown
