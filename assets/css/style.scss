@@ -27,6 +27,15 @@ a:hover {
     font-family: 'PT Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
 
+.site-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.profile img {
+  object-fit: contain;
+}
+
 .site-header {
     text-align: center !important;
     width: 100% !important;
