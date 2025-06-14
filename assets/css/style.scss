@@ -1,3 +1,8 @@
+---
+---
+
+@import "plain-academic";
+
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 1.1rem;
@@ -18,4 +23,8 @@ a:hover {
 
 .container {
     max-width: 800px;
+}
+
+.site-title {
+    font-family: 'PT Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
