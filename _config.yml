@@ -1,44 +1,61 @@
-title: Shubham Mohole
-email: sam588@cornell.edu
-description: >-
-  Computer Science student at Cornell University. Research in machine learning, 
-  privacy-preserving systems, and AI safety.
-baseurl: ""
-url: "https://shub500.github.io"
-github_username: Shub500
-
-# Build settings
-theme: minima
 plugins:
-  - jekyll-feed
+  - jekyll-remote-theme
+
+remote_theme: brenomfviana/the-plain-academic
+
+# Site Info
+title:              "Shubham Mohole"
+description:        "Computer Science Student at Cornell University"
+author_name:        "Shubham Mohole"
+logo_url:           https://avatars.githubusercontent.com/u/143766726?v=4  # Update with your GitHub user ID
+
+# Site Settings
+url:                https://shub500.github.io
+baseurl:            ""
+permalink:          /:title
+timezone:           America/New_York
+mathjax:            true
+
+# Site Build
+highlighter:        rouge
+markdown:           kramdown
+kramdown:
+    input:          GFM
+sass:
+    style:          :compressed
+
+# Other Params
+include:            [ "robots.txt", "assets" ]
+exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "about.markdown" ]
+plugins:
   - jekyll-sitemap
 
-# Custom navigation - specify which pages to show in header
-header_pages:
-  - publications.md
-  - research.md
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+  blog:
+    output: true
+    permalink: /blog/:name
 
-# Disable showing posts on the home page
-show_excerpts: false
-
-# Include assets
-include:
-  - assets
-
-markdown: kramdown
-highlighter: rouge
-
-# Exclude from processing
-exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
-  - Gemfile
-  - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - README.md
-  - about.markdown
+defaults:
+  -
+    scope:
+      path:         ""
+    values:
+      layout:       "page"
+  -
+    scope:
+      type:         "posts"
+    values:
+      layout:       "post"
+  -
+    scope:
+      type:         "projects"
+    values:
+      layout:       "post"
+  -
+    scope:
+      type:         "blog"
+    values:
+      layout:       "post"

@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Research
-permalink: /research/
 ---
 
 # Research
@@ -31,38 +30,12 @@ I'm interested in developing AI systems that are not only accurate but also inte
 
 Developing an interactive system that identifies and mitigates cognitive biases in natural language database queries. The system uses contextual semantic mapping and operationalizes the Hard-to-Vary principle to guide users toward robust analytical questions.
 
-**Key Contributions:**
-- 53-category cognitive bias taxonomy for data analysis contexts
-- Multi-candidate LLM prompt engineering with critic feedback
-- Real-time analytical vulnerability detection with 82.5% user effectiveness
-
 ### SIFOTL: Privacy-Safe Data Shift Detection
 *Advisor: Prof. Sainyam Galhotra*
 
 Creating a framework for identifying factors driving data shifts in healthcare datasets while operating only on privacy-safe statistical summaries. The system uses twin XGBoost models and Pareto-weighted decision trees.
 
-**Key Contributions:**
-- Privacy-preserving LLM-guided feature synthesis
-- Twin-model architecture for signal/noise separation
-- F1 scores of 0.85-0.96 on healthcare benchmarks
-
 ### VeriMed-RAG: Biomedical Validation
 *Lawrence Livermore National Laboratory*
 
 Developing a retrieval-augmented generation framework for validating biomedical propositions through systematic methodological quality assessment.
-
-**Key Contributions:**
-- 11 "Veritable Checks" for biomedical claim validation
-- Adversarial knowledge base creation using retracted papers
-- Hierarchical audit layer with explainable verification trails
-
----
-
-## Research Philosophy
-
-I'm driven by the goal of making AI systems more trustworthy and useful for real-world applications. This means:
-
-1. **Robustness**: Systems that work reliably under noisy, real-world conditions
-2. **Interpretability**: Providing clear explanations for automated decisions
-3. **Privacy**: Enabling collaboration without compromising sensitive data
-4. **Practicality**: Building systems that solve actual problems faced by practitioners
