@@ -24,9 +24,11 @@ permalink: /experience/
 
 ### Selected Projects
 
-**ClamPy (Sparse AutoEncoders for LLM Behavior Control)** Implemented core functionality for manipulating text generation using activation hooking and dynamic steering. Developed multi-candidate prompt engineering with critic evaluation. Awarded PrimeIntellect Sponsor Prize at Open Source AGI Hackathon.
+**ClamPy (Sparse AutoEncoders for LLM Behavior Control)** Implemented core functionality for manipulating text generation using activation hooking and dynamic steering. Developed multi-candidate prompt engineering with critic evaluation. Awarded PrimeIntellect Sponsor Prize at Open Source AGI Hackathon. [Code]({{ 'https://github.com/MDK8888/ClamPy' | url }})
 
-**Rhythm Game Engine** Developed front-end graphics and backend logic for a music-synchronized rhythm game with comprehensive OUnit testing framework. Implemented real-time audio synchronization and interactive gameplay mechanics.
+**Manim Math Video Generator** Built a fine-tuning dataset of 500+ instruction-output pairs for generating Python Manim animation code from natural language descriptions. Implemented baseline experiments using Together AI's API with models like SOLAR-10.7B and Llama-3 to automatically generate mathematical visualization code. [Code]({{ 'https://github.com/Shub500/ManimMathVideoGenerator' | url }})
+
+**Rhythm Game Engine** Developed front-end graphics and backend logic for a music-synchronized rhythm game with comprehensive OUnit testing framework. Implemented real-time audio synchronization and interactive gameplay mechanics. [Code]({{ 'https://github.com/cchrischen/DanceDanceCamlution' | url }})
 
 ---
 
