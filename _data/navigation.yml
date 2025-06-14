@@ -1,9 +1,7 @@
 main:
-  - title: "About"
-    url: /about/
-  - title: "Research"
-    url: /research/
-  - title: "Publications"
-    url: /publications/
-  - title: "CV"
+  - title: "Experience"
+    url: /experience/
+  - title: "Resume"
     url: /assets/Shubham_Mohole_Resume.pdf
+  - title: "Contact"
+    url: /contact/

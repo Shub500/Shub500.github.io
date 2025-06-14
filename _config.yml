@@ -3,20 +3,17 @@ plugins:
 
 remote_theme: brenomfviana/the-plain-academic
 
-# Site Info
 title:              "Shubham Mohole"
 description:        "Computer Science Student at Cornell University"
 author_name:        "Shubham Mohole"
-logo_url:           https://avatars.githubusercontent.com/u/143766726?v=4  # Update with your GitHub user ID
+logo_url:           https://avatars.githubusercontent.com/u/143766726?v=4  
 
-# Site Settings
 url:                https://shub500.github.io
 baseurl:            ""
 permalink:          /:title
 timezone:           America/New_York
 mathjax:            true
 
-# Site Build
 highlighter:        rouge
 markdown:           kramdown
 kramdown:
@@ -24,7 +21,6 @@ kramdown:
 sass:
     style:          :compressed
 
-# Other Params
 include:            [ "robots.txt", "assets" ]
 exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "about.markdown" ]
 plugins:
