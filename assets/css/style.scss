@@ -26,3 +26,30 @@ a:hover {
 .site-title {
     font-family: 'PT Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
+
+/* Fix header centering */
+.site-header {
+    text-align: center;
+}
+
+.site-header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.site-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.site-nav .page-link {
+    margin-left: 20px;
+}
+
+.site-nav .page-link:first-child {
+    margin-left: 0;
+}

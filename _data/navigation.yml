@@ -1,6 +1,8 @@
 main:
   - title: "Experience"
     url: /experience/
+  - title: "Publications"
+    url: /publications/
   - title: "Resume"
     url: /assets/Shubham_Mohole_Resume.pdf
   - title: "Contact"

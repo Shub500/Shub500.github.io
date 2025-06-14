@@ -4,29 +4,18 @@ title: Publications
 permalink: /publications/
 ---
 
-# Publications
-
 ## Conference Papers
 
 **VeriMinder: Mitigating Analytical Vulnerabilities in NL2SQL**  
 **Shubham Mohole**, Sainyam Galhotra  
 *Association for Computational Linguistics (ACL), 2025*  
-[Paper](https://arxiv.org/abs/placeholder) | [Code](https://github.com/veriminder/veriminder) | [Website](https://veriminder.ai)
+[Paper]({{ '/assets/VeriMinder_Paper.pdf' | relative_url }}) | [Website](https://veriminder.ai)
+
+*VeriMinder addresses cognitive biases in natural language database queries through a three-stage framework: contextual semantic mapping, Hard-to-Vary principle operationalization, and optimized LLM-powered refinement. User evaluation shows 82.5% positive impact on analysis quality with significant improvements in concreteness, comprehensiveness, and accuracy.*
 
 **SIFOTL: A Principled, Statistically-Informed Fidelity-Optimization Method for Tabular Learning**  
 **Shubham Mohole**, Sainyam Galhotra  
 *ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2025*  
-[Paper](https://arxiv.org/abs/placeholder) | [Code](https://github.com/sifotl/sifotl)
+[Paper]({{ '/assets/SIFOTL_Paper.pdf' | relative_url }})
 
-<!-- ## Under Review
-
-**SAVL-II: Surrogate-Aided Vertical Learning for Agent-to-Agent Systems with Inference-Time Independence**  
-**Shubham Mohole**, Sainyam Galhotra  
-*Under Review*  
-[Paper](https://arxiv.org/abs/placeholder)
-
-## Technical Reports
-
-**VeriMed-RAG: Retrieval-Augmented Generation for Biomedical Proposition Validation**  
-**Shubham Mohole**, et al.  
-*Lawrence Livermore National Laboratory Technical Report, 2025* -->
+*SIFOTL identifies factors driving data shifts in tabular datasets using privacy-compliant statistical summaries, twin XGBoost models, and Pareto-weighted decision trees. Achieves F1 scores of 0.86-0.96 on synthetic EHR datasets while maintaining privacy compliance.*
