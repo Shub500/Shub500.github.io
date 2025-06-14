@@ -9,6 +9,8 @@ gem "webrick", "~> 1.7"
 
 gem "csv"
 gem "logger"
+gem 'base64'
+
 
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do
