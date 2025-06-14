@@ -27,29 +27,48 @@ a:hover {
     font-family: 'PT Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
 
-/* Fix header centering */
 .site-header {
-    text-align: center;
+    text-align: center !important;
+    width: 100% !important;
 }
 
 .site-header .wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0 20px;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    max-width: 800px !important;
+    margin: 0 auto !important;
+    padding: 0 20px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+.site-title {
+    font-family: 'PT Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !important;
+    flex-shrink: 0 !important;
 }
 
 .site-nav {
-    display: flex;
-    gap: 20px;
+    display: flex !important;
+    gap: 20px !important;
+    align-items: center !important;
+}
+
+.site-nav .trigger {
+    display: flex !important;
+    gap: 20px !important;
+    align-items: center !important;
 }
 
 .site-nav .page-link {
-    margin-left: 20px;
+    margin-left: 0 !important;
+    white-space: nowrap !important;
 }
 
-.site-nav .page-link:first-child {
-    margin-left: 0;
+/* Override any theme-specific positioning */
+header.site-header {
+    position: relative !important;
+    left: auto !important;
+    right: auto !important;
+    transform: none !important;
 }
