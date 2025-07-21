@@ -35,9 +35,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:name
-  blog:
-    output: true
-    permalink: /blog/:name
+  # blog:
+  #   output: true
+  #   permalink: /blog/:name
 
 defaults:
   -
