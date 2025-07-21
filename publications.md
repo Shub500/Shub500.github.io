@@ -20,12 +20,9 @@ permalink: /publications/
 
 *SIFOTL identifies factors driving data shifts in tabular datasets using privacy-compliant statistical summaries, twin XGBoost models, and Pareto-weighted decision trees. Achieves F1 scores of 0.86-0.96 on synthetic EHR datasets while maintaining privacy compliance.*
 
-**Communication Makes Perfect: Persuasion Dataset Construction via Multi-LLM Communication**
-
-Weicheng Ma, Hefan Zhang, Ivory Yang, Shiyu Ji, Joice Chen, Farnoosh Hashemi, **Shubham Mohole**, Ethan Gearey, Michael Macy, Saeed Hassanpour, Soroush Vosoughi
-
-*North American Chapter of the Association for Computational Linguistics (2025)*
-
+**Communication Makes Perfect: Persuasion Dataset Construction via Multi-LLM Communication**  
+Weicheng Ma, Hefan Zhang, Ivory Yang, Shiyu Ji, Joice Chen, Farnoosh Hashemi, **Shubham Mohole**, Ethan Gearey, Michael Macy, Saeed Hassanpour, Soroush Vosoughi  
+*North American Chapter of the Association for Computational Linguistics (2025)*  
 [Paper](https://aclanthology.org/2025.naacl-long.203.pdf)
 
 *This paper presents a multi-LLM communication framework with 6 specialized agents to automatically generate high-quality persuasive dialogues with minimal human oversight. Human annotators could distinguish LLM-generated utterances from human-written ones only 29.25% of the time (near-random), with dialogue quality scores averaging 2.97/3 for coherence and 3/3 for clarity.*
